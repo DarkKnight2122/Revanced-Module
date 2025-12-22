@@ -1,8 +1,7 @@
 Google-Photos: 7.57.0.843750501  
 Icon-Pack-Studio: 2.2 build 016  
 Instagram: 410.1.0.63.71  
-Music (arm64-v8a): 8.10.52  
-Music (arm-v7a): 8.10.52  
+Music: 8.10.52  
 Proton-VPN: 5.14.87.0  
 Reddit: 2025.12.1  
 YouTube: 20.14.43  
