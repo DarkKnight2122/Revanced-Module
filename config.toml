@@ -16,7 +16,7 @@ exclusive-patches = true
 enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
 
-[YouTube Music-Extended]
+[YouTube_Music-Extended]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -60,7 +60,7 @@ build-mode = "both"
 arch = "both"
 version = "auto"
 
-[Google Photos]
+[Google_Photos]
 build-mode = "both"
 arch = "both"
 version = "auto"
@@ -69,7 +69,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
-[Proton VPN]
+[Proton_VPN]
 build-mode = "both"
 arch = "both"
 version = "auto"
