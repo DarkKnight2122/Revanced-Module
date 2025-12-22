@@ -7,6 +7,7 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube-Extended]
+enabled = false
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -19,6 +20,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 included-patches = "'Alternative thumbnails' 'Ambient mode control' 'Bypass URL redirects' 'Bypass image region restrictions' 'Change form factor' 'Change live ring click action' 'Change player flyout menu toggles' 'Change share sheet' 'Change start page' 'Change version code' 'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Custom double tap length' 'Custom header for YouTube' 'Description components' 'Disable QUIC protocol' 'Disable forced auto audio tracks' 'Disable forced auto captions' 'Disable haptic feedback' 'Disable layout updates' 'Disable resuming Miniplayer on startup' 'Disable resuming Shorts on startup' 'Disable sign in to TV popup' 'Disable splash animation' 'Enable debug logging' 'Enable gradient loading screen' 'Fullscreen components' 'GmsCore support' 'Hide accessibility controls dialog' 'Hide action buttons' 'Hide ads' 'Hide comments components' 'Hide feed components' 'Hide feed flyout menu' 'Hide layout components' 'Hide player buttons' 'Hide player flyout menu' 'Hide shortcuts' 'Hook YouTube Music actions' 'Hook download actions' 'MaterialYou' 'Miniplayer' 'Navigation bar components' 'Open links externally' 'Overlay buttons' 'Player components' 'Remove background playback restrictions' 'Remove viewer discretion dialog' 'Return YouTube Dislike' 'Return YouTube Username' 'Sanitize sharing links' 'Seekbar components' 'Set Transcript Cookies' 'Settings for YouTube' 'Shorts components' 'Snack bar components' 'SponsorBlock' 'Spoof app version' 'Swipe controls' 'Theme' 'Toolbar components' 'Translations for YouTube' 'Video playback' 'Visual preferences icons for YouTube' 'Watch history'"
 
 [Music-Extended]
+enabled = false
 app-name = "YouTube-Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -49,6 +51,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [Reddit]
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 patches-source = "inotia00/revanced-patches"
@@ -67,14 +70,14 @@ enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [Twitter]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 patches-source = "crimera/piko"
-integrations-source = "crimera/revanced-integrations"
 rv-brand = "crimera ReVanced"
 arch = "arm64-v8a"
 version = "auto"
+patches-version = "v2.0.0-dev.18"
 
 [Instagram]
 enabled = false
