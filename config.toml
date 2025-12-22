@@ -1,4 +1,4 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
@@ -6,24 +6,29 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-[Instagram]
-apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
-build-mode = "both"
-included-patches = "'Hide ads' 'Limit feed to followed profiles' 'Anonymous story viewing' 'Hide suggested content' 'Enable developer menu' 'Sanitize sharing links'"
-exclusive-patches = true
-
-[Messenger]
-enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
-
-[YouTubeMusic-Extended]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+[Youtube-Extended]
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
 build-mode = "both"
 arch = "both"
 version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[YouTubeMusic-Extended]
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+arch = "both"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
@@ -51,14 +56,17 @@ build-mode = "both"
 arch = "both"
 version = "auto"
 
-[Youtube-Extended]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-rv-brand = "inotia00 ReVanced"
+[Instagram]
 build-mode = "both"
 arch = "both"
 version = "auto"
+included-patches = "'Hide ads' 'Limit feed to followed profiles' 'Anonymous story viewing' 'Hide suggested content' 'Enable developer menu' 'Sanitize sharing links'"
+exclusive-patches = true
+apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+
+[Messenger]
+enabled = false
+apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
 
 [GooglePhotos]
 build-mode = "both"
