@@ -1,10 +1,13 @@
 Google-Photos: 7.57.0.843750501  
-IconPackStudio: 2.2 build 016  
+Icon-Pack-Studio: 2.2 build 016  
 Instagram: 410.1.0.63.71  
-ProtonVPN: 5.14.87.0  
+Music (arm64-v8a): 8.10.52  
+Music (arm-v7a): 8.10.52  
+Proton-VPN: 5.14.87.0  
 Reddit: 2025.12.1  
-YouTube-Music-Extended: 8.30.54  
-Youtube-Extended: 20.05.46  
+YouTube: 20.14.43  
+YouTube-Music: 8.30.54  
+Youtube: 20.05.46  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
