@@ -36,12 +36,11 @@ excluded-patches = "'Custom branding'"
 enabled = true
 app-name = "YouTube"
 arch = "arm64-v8a"
-excluded-patches = ""
+excluded-patches = "'Custom branding' 'Change header'"
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-excluded-patches = "'Custom branding' 'Change header'"
 
 [Revanced-Music]
 enabled = true
