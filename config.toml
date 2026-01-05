@@ -59,7 +59,8 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 arch = "arm64-v8a"
-version = "dev"
+version = "auto"
+patches-version = "dev"
 
 [Twitter-Dev]
 enabled = false
